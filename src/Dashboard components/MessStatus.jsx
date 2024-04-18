@@ -53,7 +53,7 @@ const MessStatus = () => {
       <h4>Mess Status: {messStatus}</h4>
       <p>
         {messStatus === "Open"
-          ? "The mess is currently open. Enjoy your meal!"
+          ? "The mess is currently open. Enjoy your meal@"
           : "Sorry, the mess is currently closed. Please visit during the open hours."}
       </p>
       <div className={messStatus === "Open" ? "open-status" : "closed-status"}>
